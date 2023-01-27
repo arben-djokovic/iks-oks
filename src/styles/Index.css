@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+}
+
+.endPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.endPage button {
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.endPage button:hover {
+  opacity: .8;
+}
+
+.gamePage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.gamePage .gameDiv {
+  width: 200px;
+  height: 200px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  background-color: black;
+  -ms-grid-columns: (32%)[3];
+      grid-template-columns: repeat(3, 32%);
+  -ms-grid-rows: (32%)[3];
+      grid-template-rows: repeat(3, 32%);
+  grid-gap: 3px;
+  border: 3px solid black;
+}
+
+.gamePage .gameDiv .gridDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+  background-color: white;
+}
+
+.gamePage .gameDiv .gridDiv:hover {
+  opacity: .8;
+}
+/*# sourceMappingURL=Index.css.map */
